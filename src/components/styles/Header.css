@@ -1,0 +1,449 @@
+@media only screen and (min-width: 1024px) {
+  .logo-init {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .logo-init:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo {
+    height: 6em;
+    left: 100px;
+    will-change: filter;
+    transition: filter 300ms;
+    transition: ease-in;
+  }
+  .button {
+    left: 75rem;
+    top: 1rem;
+    flex-direction: row;
+    position: absolute;
+    background-color: rgb(26, 96, 96);
+    color: white;
+  }
+  .h1 {
+    font-size: 3em;
+    line-height: 1.5;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    right: 20rem;
+    color: rgb(26, 96, 96);
+    font-weight: bold;
+  }
+  p {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    right: 20rem;
+    color: rgb(128, 128, 128);
+    font-size: 1.7em;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .get-button {
+    background-color: rgb(26, 96, 96);
+    color: white;
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    right: 40rem;
+    margin-top: 50px;
+    position: absolute;
+  }
+  h2 {
+    margin-left: 20rem;
+    margin-right: 10rem;
+    font-size: 6rem;
+    align-content: center;
+  }
+  h3 {
+    margin-left: 30rem;
+    margin-right: 20rem;
+    font-size: 1.3rem;
+    align-content: center;
+    margin-top: 30px;
+    color: rgb(128, 128, 128);
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+  }
+  .create {
+    color: rgb(26, 96, 96);
+    font-size: 1.2em;
+    padding-left: 0rem;
+    padding-right: 5rem;
+    cursor: pointer;
+    position: absolute;
+    transition: color 0.25s;
+    align-items: center;
+    justify-content: center;
+  }
+  h4 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5em;
+  }
+  .box {
+    margin-left: 10rem;
+    margin-right: 20rem;
+    font-size: 1.5em;
+    align-content: center;
+    margin-top: 30px;
+    color: rgb(71, 53, 53);
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+  }
+  .create-trip {
+    background-color: rgb(210, 213, 213);
+    color: rgb(77, 58, 58);
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    right: 20rem;
+    margin-top: 70px;
+    position: absolute;
+    width: 60rem;
+  }
+  .box1 {
+    margin-left: 10rem;
+    margin-right: 20rem;
+    font-size: 1.5em;
+    align-content: center;
+    top: 28rem;
+    color: rgb(71, 53, 53);
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+  }
+  .create-trip1 {
+    background-color: rgb(210, 213, 213);
+    color: rgb(77, 58, 58);
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    right: 20rem;
+    top: 35rem;
+    position: absolute;
+    width: 60rem;
+  }
+  .box2 {
+    margin-left: 10rem;
+    margin-right: 20rem;
+    font-size: 1.5em;
+    align-content: center;
+    top: 38rem;
+    color: rgb(71, 53, 53);
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+  }
+  .create-trip2 {
+    background-color: rgb(210, 213, 213);
+    color: rgb(77, 58, 58);
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    right: 20rem;
+    top: 45rem;
+    position: absolute;
+    width: 60rem;
+  }
+  .pic {
+    position: absolute;
+    top: 42rem;
+    right: 7rem;
+    width: 70rem;
+    height: 35rem;
+    border-radius: 1rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .logo-init {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .logo-init:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo {
+    height: 4em;
+  }
+  .button {
+    left: 17rem;
+    top: 1rem;
+    flex-direction: row;
+    position: absolute;
+    background-color: rgb(26, 96, 96);
+    color: white;
+  }
+  .h1 {
+    font-size: 2rem;
+    color: rgb(26, 96, 96);
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  p {
+    color: rgb(128, 128, 128);
+    font-size: 1.1em;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 0.8rem;
+  }
+  .get-button {
+    background-color: rgb(26, 96, 96);
+    color: white;
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 2.1rem;
+    margin-left: 2rem;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 1.5rem;
+    color: rgb(128, 128, 128);
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    margin-left: 2.5rem;
+  }
+  .create {
+    color: rgb(26, 96, 96);
+    font-size: 1.2em;
+    padding-left: 0rem;
+    padding-right: 5rem;
+    cursor: pointer;
+    position: absolute;
+    transition: color 0.25s;
+    align-items: center;
+    justify-content: center;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+  p {
+    margin-left: 30px;
+    color: rgb(128, 128, 128);
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+  .box {
+    font-size: 1.5em;
+    align-content: center;
+    color: rgb(71, 53, 53);
+    margin-bottom: 0px;
+    right: 1rem;
+    font-weight: lighter;
+    font-style: italic;
+    position: absolute;
+  }
+  .create-trip {
+    background-color: rgb(210, 213, 213);
+    color: rgb(77, 58, 58);
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    right: 1rem;
+    top: 13rem;
+    position: absolute;
+    width: 25rem;
+  }
+  .box1 {
+    font-size: 1.5em;
+    top: 18rem;
+    right: 1rem;
+    color: rgb(71, 53, 53);
+    font-weight: lighter;
+    font-style: italic;
+    position: absolute;
+  }
+  .create-trip1 {
+    background-color: rgb(210, 213, 213);
+    color: rgb(77, 58, 58);
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    right: 1rem;
+    top: 25rem;
+    position: absolute;
+    width: 25rem;
+  }
+  .box2 {
+    font-size: 1.5em;
+    align-content: center;
+    top: 30rem;
+    right: 1rem;
+    color: rgb(71, 53, 53);
+    font-weight: lighter;
+    font-style: italic;
+    position: absolute;
+  }
+  .create-trip2 {
+    background-color: rgb(210, 213, 213);
+    color: rgb(77, 58, 58);
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    top: 37rem;
+    right: 1rem;
+    position: absolute;
+    width: 25rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .logo-init {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .logo-init:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo {
+    height: 5em;
+  }
+  .button {
+    left: 53rem;
+    top: 2rem;
+    flex-direction: row;
+    position: absolute;
+    background-color: rgb(26, 96, 96);
+    color: white;
+  }
+  .h1 {
+    font-size: 2rem;
+    color: rgb(26, 96, 96);
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  p {
+    color: rgb(128, 128, 128);
+    font-size: 1.1em;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 0.8rem;
+  }
+  .get-button {
+    background-color: rgb(26, 96, 96);
+    color: white;
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 27rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .pic {
+    position: absolute;
+    width: 70rem;
+    height: 35rem;
+    border-radius: -1rem;
+  }
+  h2 {
+    margin-left: 15rem;
+    margin-right: 10rem;
+    font-size: 4rem;
+    align-content: center;
+  }
+  h3 {
+    margin-left: 10rem;
+    margin-right: 20rem;
+    font-size: 1.3rem;
+    align-content: center;
+    margin-top: 30px;
+    color: rgb(128, 128, 128);
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+  }
+  .create {
+    color: rgb(26, 96, 96);
+    font-size: 1.2em;
+    cursor: pointer;
+    position: absolute;
+    transition: color 0.25s;
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+    font-size: 1.5em;
+    align-content: center;
+    color: rgb(71, 53, 53);
+    right: 1rem;
+    font-weight: lighter;
+    font-style: italic;
+    position: absolute;
+  }
+  .create-trip {
+    background-color: rgb(210, 213, 213);
+    color: rgb(77, 58, 58);
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    right: 5rem;
+    top: 15rem;
+    position: absolute;
+    width: 40rem;
+  }
+  .box1 {
+    font-size: 1.5em;
+    top: 18rem;
+    right: 1rem;
+    color: rgb(71, 53, 53);
+    font-weight: lighter;
+    font-style: italic;
+    position: absolute;
+  }
+  .create-trip1 {
+    background-color: rgb(210, 213, 213);
+    color: rgb(77, 58, 58);
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    right: 5rem;
+    top: 27rem;
+    position: absolute;
+    width: 40rem;
+  }
+  .box2 {
+    font-size: 1.5em;
+    align-content: center;
+    top: 30rem;
+    right: 1rem;
+    color: rgb(71, 53, 53);
+    font-weight: lighter;
+    font-style: italic;
+    position: absolute;
+  }
+  .create-trip2 {
+    background-color: rgb(210, 213, 213);
+    color: rgb(77, 58, 58);
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    top: 38rem;
+    right: 5rem;
+    position: absolute;
+    width: 40rem;
+  }
+}
