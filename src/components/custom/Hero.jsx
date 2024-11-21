@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Header.css";
+import "/src/index.css";
 import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
 function Hero() {
